@@ -1,0 +1,22 @@
+# ==============================================================================
+# UcchhishtaXAI public repository guardrail
+# ==============================================================================
+#
+# This repository is intentionally public-facing only.
+# Track README.md and showcase media folders, while keeping the private
+# application source, secrets, configs, virtualenvs, node_modules, and runtime
+# data out of Git.
+
+*
+
+!README.md
+!.gitignore
+!Images/
+!Images/**
+!Videos/
+!Videos/**
+
+# Keep platform metadata out even inside allowed folders.
+.DS_Store
+Images/.DS_Store
+Videos/.DS_Store
