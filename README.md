@@ -33,6 +33,97 @@ UcchhishtaXAI is an enterprise-grade autonomous penetration testing platform tha
 
 ---
 
+## Product Screenshots
+
+The screenshots below show UcchhishtaXAI as a full penetration testing workspace: from authentication and dashboards to live reconnaissance, AI-assisted command execution, CVE intelligence, RAG context, reports, and scan history.
+
+### Access & Theme
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Login Page](Images/Login%20Page.png) | **Login Page** — Secure entry point for authenticated users with JWT-based access control before using scans, reports, and AI workflows. |
+| ![Signup Page](Images/Signup%20page.png) | **Signup Page** — User onboarding flow with role-aware account creation for controlled team access. |
+| ![Light Mode](Images/Light%20mode.png) | **Light Mode** — Alternate bright interface theme for comfortable use in different environments. |
+
+### Dashboard & Administration
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Dashboard](Images/Dashboard.png) | **Dashboard** — Central command view for monitoring platform activity, scan status, findings, and operational security metrics. |
+| ![Dashboard Graph](Images/Dashboard%20graph.png) | **Dashboard Graph** — Visual summary of scan activity and security posture trends for quick review. |
+| ![Dashboard Graphs](Images/Dashboard%20graphs.png) | **Dashboard Graphs** — Multiple analytics panels for comparing reconnaissance output, vulnerability volume, and system activity. |
+| ![Admin Panel](Images/Admin%20Panel.png) | **Admin Panel** — RBAC administration area for managing users, roles, permissions, and platform access. |
+
+### Scan Launching & Reconnaissance
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Scan Launcher](Images/Scan%20Launcher.png) | **Scan Launcher** — Configure and start penetration testing workflows with options for recon, nuclei, nmap, katana, and deeper scan phases. |
+| ![Bulk Scan](Images/Bulk%20Scan.png) | **Bulk Scan** — Run multiple target scans efficiently while the backend controls concurrency and tracks progress. |
+| ![Scan Overview](Images/Scan%20Overviw.png) | **Scan Overview** — High-level summary of an active or completed scan, including target, phases, status, and discovered attack surface. |
+| ![Live Subdomains](Images/Live%20Subdomains.png) | **Live Subdomains** — Real-time subdomain discovery results from tools such as subfinder, assetfinder, findomain, and Chaos. |
+| ![Subdomains](Images/Subdomains.png) | **Subdomains** — Organized subdomain inventory for reviewing discovered assets before probing and vulnerability checks. |
+| ![Live Host Details](Images/Live%20Host%20Details.png) | **Live Host Details** — HTTP probing results with live URLs, status codes, technologies, and reachable services. |
+| ![Live Terminal](Images/Live%20Terminal.png) | **Live Terminal** — Streaming terminal output for scan and agent activity through WebSocket-powered live updates. |
+
+### Vulnerability & Network Findings
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Nuclei Details](Images/Nuclie%20Details.png) | **Nuclei Details** — Vulnerability result details from nuclei templates, including severity, evidence, and matched target data. |
+| ![Nuclei Port Scans](Images/Nuclie%20Port%20Scans.png) | **Nuclei & Port Scan Results** — Combined vulnerability and service discovery view for correlating exposed ports with security findings. |
+| ![Vulnerabilities Findings](Images/Vulnerabilities%20findings.png) | **Vulnerability Findings** — Findings list for triage, severity review, and remediation planning. |
+| ![Vulnerabilities Findings Duplicate](Images/vulnerabilites%20Findings.png) | **Detailed Vulnerability Findings** — Additional findings view focused on discovered issues and affected assets. |
+| ![Latest Vulnerability Details](Images/latest%20vulnerabiliti%20in%20details.png) | **Latest Vulnerability Details** — Detailed vulnerability intelligence view with context for newly identified weaknesses. |
+| ![Vulnerability Intelligence](Images/Vulnerability%20intel.png) | **Vulnerability Intelligence** — Intelligence dashboard for tracking vulnerability context, affected technologies, and risk information. |
+| ![Vulnerability Intelligence Panel](Images/Vulnerabilitey%20Intelligence.png) | **Vulnerability Intelligence Panel** — Central place to review vulnerability intelligence and prioritize research. |
+
+### Katana & Wayback Discovery
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Katana Deep Crawl](Images/Katana%20Deep%20Crawl.png) | **Katana Deep Crawl** — Deep crawling workflow for discovering JavaScript files, hidden routes, parameters, and application endpoints. |
+| ![Katana Endpoint Details](Images/Katana%20Endpoint%20Details.png) | **Katana Endpoint Details** — Endpoint-level crawl output for inspecting discovered URLs and web application structure. |
+| ![Wayback Old Web Data](Images/Wayback%20Old%20web%20data.png) | **Wayback Historical Data** — Archived URL discovery for finding legacy endpoints, old paths, and forgotten attack surface. |
+| ![Wayback URL Details](Images/Wayback%20URL%20Details.png) | **Wayback URL Details** — Detailed historical URL records for deeper endpoint review and parameter hunting. |
+
+### AI Agent & Human Approval
+
+| Screenshot | Description |
+|------------|-------------|
+| ![AI Assistant Floating Window](Images/AI%20Assistant%20floting%20window.png) | **AI Assistant Floating Window** — Always-available assistant for asking security questions, interpreting output, and planning next steps. |
+| ![AI Command Execution](Images/AI%20command%20execution.png) | **AI Command Execution** — Agent-generated command workflow for running security tools inside the controlled environment. |
+| ![AI Command Execution Details](Images/Ai%20Command%20execution%20detaisl.png) | **AI Command Execution Details** — Command metadata, reasoning, and execution context before or after tool runs. |
+| ![Agent Running Command Output](Images/Agent%20running%20command%20ouput%20by%20ai.png) | **Agent Command Output** — Live command output produced by the AI agent and streamed back for review. |
+| ![Explain Output by AI](Images/Explain%20ouput%20by%20AI%20and%20give%20next%20step.png) | **AI Output Explanation** — AI explains command results and suggests the next penetration testing step based on evidence. |
+| ![HITL AI Approval](Images/HITL%20AI%20approval.png) | **Human-in-the-Loop Approval** — Safety checkpoint where every agent command can be approved, rejected, or modified before execution. |
+
+### RAG, CVE & Plugin Intelligence
+
+| Screenshot | Description |
+|------------|-------------|
+| ![AI RAG Details](Images/AI%20RAG%20Details.png) | **AI RAG Details** — Retrieval-augmented context showing how tool documentation and security knowledge improve agent decisions. |
+| ![AI Latest CVE Information](Images/AI%20Latest%20CVE%20information.png) | **AI Latest CVE Information** — AI-assisted CVE lookup for current vulnerability context and remediation guidance. |
+| ![AI Latest CVE Information Copy](Images/AI%20latest%20CVE%20Information%20copy.png) | **AI CVE Copy Workflow** — Quick copy/share flow for CVE details, useful during reporting and research. |
+| ![AI Latest CVE Copy Fail Details](Images/AI%20latest%20cve%20Copy%20Fail%20Details.png) | **AI CVE Failure Details** — Error-aware CVE workflow view for diagnosing failed lookups or copy actions. |
+| ![Plugin Intelligence](Images/Plugins%20Intelligence.png) | **Plugin Intelligence** — Intelligence workspace for security plugin data, templates, and contextual references. |
+| ![Plugin Intelligence Template](Images/Plugin%20Intelligence%20Template.png) | **Plugin Intelligence Template** — Template-focused view for understanding detection logic and reusable security checks. |
+| ![Plugin Intelligence References](Images/Plugin%20Intelligence%20References.png) | **Plugin Intelligence References** — Reference material connected to plugins, CVEs, templates, and vulnerability research. |
+| ![Plugins Intelligence CVE Details](Images/Plugins%20Intelligencce%20CVE%20details.png) | **Plugin CVE Details** — CVE-level intelligence connected to plugin or template findings. |
+| ![Plugins Intelligence Reconnaissance](Images/Plugins%20Intelligence%20Reconnaissance.png) | **Plugin Reconnaissance Intelligence** — Recon-oriented intelligence for selecting tools, templates, and next actions. |
+| ![Plugins Intelligence Syncing](Images/Plugins%20Intelligence%20Syncing.png) | **Plugin Intelligence Syncing** — Sync view for keeping local intelligence and templates updated. |
+| ![Threat Intelligence Feed News](Images/Threat%20Intelligence%20Feed%20News.png) | **Threat Intelligence Feed** — Security news and threat feed view for staying current with emerging attacks and vulnerabilities. |
+
+### Reports & Scan History
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Scan Report](Images/Scan%20report%20.png) | **Scan Report** — Generated report output for sharing findings, evidence, severity, and remediation notes. |
+| ![Scan History](Images/Scan%20History.png) | **Scan History** — Historical record of previous scans, targets, statuses, timestamps, and results for repeatable research. |
+| ![Scan History Actions](Images/Scan%20History%20Actions.png) | **Scan History Actions** — Action controls for opening, reviewing, deleting, or managing saved scan records. |
+
+---
+
 ## Architecture Overview
 
 ```
