@@ -608,7 +608,15 @@ MIT License. See [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
-  <strong>Built for Security Professionals by Security Professionals</strong>
+  <h3>Built for Security Professionals by Security Professionals</h3>
+  <p>
+    <em>"Precision in Penetration Testing, Intelligence in Vulnerability Discovery"</em>
+  </p>
+  <p>
+    <strong>UcchhishtaXAI</strong> is designed, developed, and maintained by
+    <br>
+    <strong>Tushar Gurav</strong>
+  </p>
   <br>
-  <em>"Precision in Penetration Testing, Intelligence in Vulnerability Discovery"</em>
+  <sub>Made with passion for offensive security, automation, and AI-assisted research.</sub>
 </div>
